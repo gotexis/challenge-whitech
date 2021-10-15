@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "api",
+      "app",
+      "common"
+    ]
+  },
+  "scripts": {
+    "test": "cd api && yarn test",
+    "start": "cd app && yarn",
+    "build:server": "cd api && yarn build",
+    "start:server": "cd api && yarn start"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4",
+    "eslint": "^7.26.0",
+    "prettier": "^2.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "cross-env": "^7.0.2"
+  }
+}
