@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "cd api && yarn test",
-    "start": "cd app && yarn",
+    "start": "cd app && yarn start",
+    "dev:server": "cd api && yarn dev:api",
     "build:server": "cd api && yarn build",
     "start:server": "cd api && yarn start"
   },

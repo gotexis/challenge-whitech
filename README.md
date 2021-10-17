@@ -4,6 +4,7 @@
 Tests (api only)
 
 ```sh
+yarn
 yarn test
 ```
 
@@ -18,7 +19,7 @@ Run without docker
 
 ```sh
 yarn # will install pkgs both frontend and backend
-yarn start:server # Backend
+yarn dev:server # Backend
 yarn start # Frontend
 ```
 
