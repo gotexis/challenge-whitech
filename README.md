@@ -25,7 +25,8 @@ yarn start # Frontend
 
 ## Highlights
 - Minimal use of libraries, mostly coding be hand
-- No lodash
+- Accurate interpretation of design
+- No lodash / minimal dependencies
 - No CSS framework
 - Hooks
 - No redux
